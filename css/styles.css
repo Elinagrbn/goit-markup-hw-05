@@ -697,7 +697,7 @@ img {
   min-width: 453px;
   margin-left: auto;
 }
-.subscribe-label {
+.subscribe-form {
   display: flex;
   flex-direction: column;
   gap: 16px;
