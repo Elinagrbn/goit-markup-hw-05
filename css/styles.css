@@ -690,6 +690,7 @@ img {
   box-shadow: rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   border: 0;
+  align-self: center;
 }
 
 .footer-subscribe {
