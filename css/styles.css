@@ -196,8 +196,10 @@ ol {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+  box-shadow:
+    0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 2px 1px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 .header .container {
@@ -298,8 +300,10 @@ img {
 .team-card {
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 
@@ -339,10 +343,8 @@ img {
 .page-title {
   max-width: 1440px;
   margin: 0 auto;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/background.jpg);
   background-repeat: no-repeat;
   min-height: 600px;
@@ -469,8 +471,10 @@ img {
 
 .portfolio-list:focus,
 .portfolio-list:hover {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .page-nav-link {
@@ -512,7 +516,9 @@ img {
 }
 
 .modal {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+  box-shadow:
+    0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
   border-radius: 4px;
@@ -625,6 +631,7 @@ img {
   border-radius: 4px;
   width: 100%;
   height: 120px;
+  margin-bottom: 8px;
 
   resize: none;
   color: rgba(46, 47, 66, 0.4);
@@ -699,7 +706,9 @@ img {
 .modal-send-btn:focus {
   background-color: #404bbf;
 }
-
+.subscribe-title {
+  margin-bottom: 16px;
+}
 .subscribe-form {
   display: flex;
   flex-direction: column;
@@ -714,7 +723,7 @@ img {
   display: flex;
   min-width: 453px;
   align-items: flex-start;
-  gap: 16px;
+  gap: 24px;
 }
 .subscribe-input {
   width: 264px;
